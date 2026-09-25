@@ -17,6 +17,8 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Verifier la syntaxe     # 3. Contrôle la compilation des scripts
+      - name: Verifier la syntaxe
         run: |
-          python -m py_compile moteur.py
+          python -m py_compile moteur.py arene.py rapport.py config.py main.py
+
+      
